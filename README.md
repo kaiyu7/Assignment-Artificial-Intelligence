@@ -1,3 +1,6 @@
+Instruction
+-----------
+
 1️⃣ Install Ollama
 Download and install Ollama from the official website:
 👉 https://ollama.com/download
