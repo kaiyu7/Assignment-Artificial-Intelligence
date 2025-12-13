@@ -6,7 +6,7 @@ Just run once and it tests all models automatically
 
 import time
 import json
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 import seaborn as sns
 import numpy as np
 from datetime import datetime
