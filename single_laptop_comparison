@@ -6,7 +6,7 @@ Just run once and it tests all models automatically
 
 import time
 import json
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 from datetime import datetime
@@ -473,7 +473,7 @@ class AutomatedModelComparison:
         """
         MAIN FUNCTION: Automatically test all models
         
-        models_to_test: ['llama3.2:3b', 'gemma2:2b', 'gemma3:4b']
+        models_to_test: ['llama3.2:3b', 'gemma2:2b', 'Qwen2.5:3b']
         """
         print("\n" + "="*70)
         print("🚀 AUTOMATED MODEL COMPARISON")
@@ -521,7 +521,7 @@ def main():
     models_to_test = [
         'llama3.2:3b',
         'gemma2:2b',
-        'gemma3:4b'
+        'Qwen2.5:3b'
         # Add more models here!
     ]
     # =============================================================
