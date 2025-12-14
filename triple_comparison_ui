@@ -3,7 +3,7 @@ import requests
 import json
 from datetime import datetime
 import time
-import pandas as pd 
+import pandas as pd
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -319,7 +319,7 @@ class MultiModelChatbot:
         # Default models
         self.models = [
             {"name": "llama3.2:3b", "display": "Llama 3.2 (3B)", "color": "1"},
-            {"name": "gemma3:4b", "display": "Gemma 3 (4B)", "color": "2"},
+            {"name": "Qwen2.5:3b", "display": "Qwen 2.5 (3B)", "color": "2"},
             {"name": "gemma2:2b", "display": "Gemma 2 (2B)", "color": "3"}
         ]
         
@@ -741,7 +741,7 @@ def main():
             ]
         else:
             st.error("❌ No models found!")
-            st.code("ollama pull llama3.2:3b\nollama pull gemma3:4b\nollama pull gemma2:2b")
+            st.code("ollama pull llama3.2:3b\nollama pull Qwen2.5:3b\nollama pull gemma2:2b")
         
         st.divider()
         
