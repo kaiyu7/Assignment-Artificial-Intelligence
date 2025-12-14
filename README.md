@@ -3,13 +3,18 @@ Instruction
 
 1️⃣ Install Ollama
 Download and install Ollama from the official website:
+
 👉 https://ollama.com/download
+
 After installation, make sure Ollama is running in the background.
 
 2️⃣ Download AI Models (Command Line)
 Open Command Prompt and use the following commands:
+
 ollama pull llama3.2:3b
+
 ollama pull Gemma2:2b
+
 ollama pull Qwen2.5:3b
 
 To check the models you have already downloaded:
